@@ -3,15 +3,31 @@ import os
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
 
+load_dotenv()
+
+# Base directory of the Django project
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-@8!$jbsytk9gqe788&!5zr5)l(o_d86k+0sp!t^%4(=d6v)hw)')
 
-DEBUG = False
+# Secret key for Django application
+SECRET_KEY = os.getenv('SECRET_KEY')
+
+# Directory where Django will look for templates
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+
+
+# Determine if running on Heroku based on environment variable
+ON_HEROKU = os.getenv('ON_HEROKU', default='False').lower() == 'true'
+
+# Set DEBUG to False if running on Heroku
+if ON_HEROKU:
+    DEBUG = False
+else:
+    DEBUG = False
 
 ALLOWED_HOSTS = [
-    'apellmone-86d239eb66e5.herokuapp.com',
-    'localhost'
+    'localhost',
+    '127.0.0.1',
 ]
 
 INTERNAL_IPS = [
