@@ -1,1 +1,2 @@
-web: gunicorn Apellmone.wsgi
+web: gunicorn Apellmone.wsgi:application
+

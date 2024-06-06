@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -23,7 +24,7 @@ ON_HEROKU = os.getenv('ON_HEROKU', default='False').lower() == 'true'
 if ON_HEROKU:
     DEBUG = False
 else:
-    DEBUG = False
+    DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # Moved DebugToolbarMiddleware here
 ]
 
 ROOT_URLCONF = 'Apellmone.urls'
