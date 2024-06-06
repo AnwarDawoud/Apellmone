@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load i18n static %}
+
+{% block title %}{% trans 'Які в нас майстри?' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+</header>
+<main>
+    <div class="content-grid">
+        <div class="content-section">
+            <div class="column">
+                <div class="content-text">
+                    <h3>ЯКІ В НАС МАЙСТРИ?</h3>
+                    <p>У нашому салоні працюють висококваліфіковані майстри манікюру, кожен з яких має багаторічний досвід. Наші спеціалісти постійно вдосконалюють свої навички, проходячи навчання у провідних майстрів, що дозволяє їм завжди бути в курсі останніх тенденцій та новітніх технік у нігтьовій індустрії.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content-images">
+                    <img src="{% static 'core/images/signal-2024-06-05-142228_004.jpeg' %}" alt="Image 1">
+                    <img src="{% static 'core/images/signal-2024-06-05-142228_005.jpeg' %}" alt="Image 2">
+                </div>
+                <div class="content-text">
+                    <p>Наші майстри використовують тільки якісні та безпечні матеріали, що забезпечує довготривалий та бездоганний результат. Ми пишаємося своєю командою, яка не тільки професійно виконує свою роботу, але й вкладає душу у кожен манікюр, створюючи справжні шедеври.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% load i18n static %} <!-- Add this line to load the i18n template tag library -->
+
+{% block title %}{% trans 'Контакти' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+
+</header>
+<main>
+    <div>
+        <h3>Контакти</h3>
+    </div>
+    <section>
+        <p>Для запису на манікюр або консультацію, ви можете зв'язатися з нами за телефоном: <a href="tel:+380501234567">+380 (50) 123-45-67</a>. Ми також доступні через електронну пошту: <a href="mailto:info@apellmone.com">info@apellmone.com</a>. Чекаємо на вас у нашому салоні!</p>
+    </section>
+</main>
+<main>
+    <div>
+        <h3>Де нас знайти?</h3>
+    </div>
+    <section>
+        <p>Ви знайдете нас за адресою: вулиця Небесної Сотні, будинок 28, у ТРЦ “Аладдін”, на 2-му поверсі, кабінет 1. Завітайте до нас і подаруйте своїм нігтям розкішний догляд та неперевершений стиль!</p>
+    </section>
+</main>
+{% endblock %}
+

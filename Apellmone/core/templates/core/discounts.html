@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load i18n static %}
+
+{% block title %}{% trans 'Які в нас майстри?' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+</header>
+<main>
+    <div class="content-grid">
+        <div class="content-section">
+            <div class="column" style="min-width: 30%; flex-basis: 30%; margin-left: 10px; margin-right: 10px; ">
+                <div class="content-text">
+                    <h3>ЯК ОТРИМАТИ ЗНИЖКУ?</h3>
+                    <p>Запрошуйте друзів та отримуйте знижки!<br> • 5% знижки для вас: Приведіть нового клієнта і отримайте 5% знижки на наступне відвідування. <br> • 10% знижки для друзів: Ваші друзі отримають 10% знижки на своє перше відвідування. Рекомендуйте нас і насолоджуйтеся приємними бонусами разом!</p>
+                </div>
+            </div>
+            <div class="column" style="min-width: 30%; flex-basis: 30%; margin-left: 10px; margin-right: 10px; ">
+                <div class="content-images">
+                    <img src="{% static 'core/images/IMG_6816.jpg' %}" alt="Image 1">
+                </div>
+                <div class="content-text">
+                    <p>Отримайте знижку за активність у соцмережах!Зробіть пост або сторіс про нас у соцмережах з відміткою нашої сторінки і отримайте 10% знижки на наступне відвідування. • Умови: Наступне відвідування має бути здійснене протягом 30 днів. Діліться враженнями та заощаджуйте!</p>
+                </div>
+            </div>
+            <div class="column" style="min-width: 30%; flex-basis: 30%; margin-left: 10px; margin-right: 10px; ">
+                <div class="content-images">
+                    <img src="{% static 'core/images/IMG_6812.jpg' %}" alt="Image 2">
+                </div>
+                <div class="content-text">
+                    <p>Отримайте 10% знижки на перше відвідування! Нові клієнти можуть скористатися знижкою, заповнивши анкету з відгуками та побажаннями щодо покращення роботи нашого салону. Дякуємо за ваші ідеї та підтримку!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

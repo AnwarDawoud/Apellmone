@@ -1,0 +1,89 @@
+{% load i18n static %}
+
+<!DOCTYPE html>
+<html lang="{% trans 'uk' %}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% trans 'Apellmone Salon' %}{% endblock %}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header class="bg-light py-3 d-flex justify-content-between">
+        <div class="language-switcher">
+            <form id="language-form" action="{% url 'change_language' %}" method="post" class="d-inline">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="en">
+                <button type="submit" class="btn btn-link p-0 m-0 align-baseline {% if language_code == 'en' %}font-weight-bold{% endif %}">EN</button>
+            </form>
+            /
+            <form id="language-form" action="{% url 'change_language' %}" method="post" class="d-inline">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="uk">
+                <button type="submit" class="btn btn-link p-0 m-0 align-baseline {% if language_code == 'uk' %}font-weight-bold{% endif %}">UK</button>
+            </form>
+        </div>
+        
+        <div class="social-icons" style="margin-right: 25px;">
+            <a href="https://www.instagram.com/apellmone/" class="social-icon" style="font-size: 24px; color: var(--dark-pink);"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" style="font-size: 24px; color: var(--dark-pink);"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon" style="font-size: 24px; color: var(--dark-pink);"><i class="fab fa-telegram"></i></a>
+        </div>
+    </header>
+
+    <div class="d-flex">
+        <div class="sidebar-container">
+            <button class="btn btn-link" type="button" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="sidebar" id="sidebar">
+                <nav class="nav flex-column">
+                    <a href="{% url 'home' %}" class="nav-link">{% trans 'Головна' %}</a>
+                    <a href="{% url 'aboutus' %}" class="nav-link">{% trans 'Про Нас' %}</a>
+                    <a href="{% url 'masters' %}" class="nav-link">{% trans 'Mайстри' %}</a>
+                    <a href="{% url 'discounts' %}" class="nav-link">{% trans 'Знижки' %}</a>
+                    <a href="{% url 'services' %}" class="nav-link">{% trans 'Послуги' %}</a>
+                    <a href="{% url 'contact' %}" class="nav-link">{% trans 'Контакти' %}</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="content flex-grow-1">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+
+
+    <footer class="bg-light py-3">
+        <div class="container">
+            <div class="footer-info mt-3">
+                <p>&copy; Apellmone Salon, 2024. <a href="/terms_uk/">{% trans 'Умови та положення' %}</a></p>
+                <p>{% trans 'Розроблено Anwar Dawoud | Дизайн: Elizaveta Dawoud' %}</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            var content = document.querySelector(".content");
+            sidebar.classList.toggle("active");
+            if (sidebar.classList.contains("active")) {
+                content.style.marginLeft = "100px"; // Adjust margin to match sidebar width
+            } else {
+                content.style.marginLeft = "0"; // Reset margin
+            }
+        }
+
+    </script>
+</body>
+</html>

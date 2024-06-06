@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Головна - Салон краси Apellmone" %}{% endblock %}
+
+{% block content %}
+
+<header class="bg-light py-3">
+    
+    <h1 id="navbar-brand">
+        <span class="neon-text fallback">Apellmone</span> <br>
+        <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+    </h1>
+
+</header>
+
+<section class="promo d-flex align-items-center py-5">
+    <div class="container d-flex justify-content-between">
+        <div class="promo-text">
+            <h2 class="special-text marck-script-font">{% trans "Вітаемо в Apellmone, де ваші нігті стають витвором мистецтва!" %}</h2>
+            <p id="promo-text">{% trans "В самому серці Черкас, засновник Єлізавета Олександрівна створила місце, де кожен клієнт може відчувати себе особливим. Apellmone - це більше, ніж просто манікюрний салон. Це простір, де краса, стиль та догляд поєднуються, щоб подарувати вам незабутні враження. Наші майстри не просто роблять манікюр - вони створюють магію на вашій руці. Ми запрошуємо вас відкрити світ вишуканої краси і розкіші в Apellmone!" %}</p>
+                <div class="signatory">
+                    <p>Єлізавета Олександрівна</p>
+                </div>
+        </div>
+        <div class="promo-image">
+            <img src="{% static 'core/images/Liza.jpeg' %}" alt="{% trans 'Промо' %}" class="img-fluid smaller-image">
+        </div>
+    </div>
+</section>
+
+<section class="promo d-flex align-items-center py-5">
+    <div class="container d-flex justify-content-between">
+        <div class="container">
+            <h2 class="special-text marck-script-font">{% trans "Про нас" %}</h2>
+            <p id="about-text">{% trans "Салон краси Apellmone розташований в самому серці Черкас. Наш салон пропонує широкий спектр послуг з догляду за нігтями, включаючи класичний і гельовий манікюр, педикюр, нарощування нігтів та дизайн нігтів. Ми використовуємо лише високоякісні матеріали і дотримуємося найвищих стандартів гігієни, щоб забезпечити безпеку і комфорт наших клієнтів. Затишна атмосфера салону Apellmone, професіоналізм нашої команди та індивідуальний підхід до кожного клієнта роблять кожен візит особливим. Ми прагнемо не тільки прикрасити ваші нігті, але й подарувати вам миті релаксації і гарного настрою. Запрошуємо відвідати наш салон Apellmone в Черкасах і переконатися особисто, що краса може бути доступною та приємною!" %}</p>
+        </div>
+    </div>
+</section>
+
+<!-- Other sections -->
+{% endblock %}

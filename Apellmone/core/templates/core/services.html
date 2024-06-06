@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+
+{% load i18n static %} <!-- Add this line to load the i18n template tag library -->
+
+{% block title %}{% trans 'Прейскурант на манікюрні та педикюрні послуги' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+
+</header>
+<main>
+    <div>
+        <h2>{% trans 'Послуги' %}</h2>
+        <p>{% trans 'Ми пропонуємо широкий спектр послуг по догляду за нігтями, включаючи манікюр, педикюр, нарощування нігтів, дизайни будь-якої складності і багато іншого. Наші майстри використовують тільки якісні та безпечні матеріали, що забезпечує довготривалий та бездоганний результат. Запрошуємо вас відчути розкішний догляд та неперевершений стиль в Apellmone!' %}</p>
+    </div>
+</main>
+<section>
+    <h2>{% trans ' Прейскурант на манікюрні та педикюрні послуги' %}</h2>
+</section><br>
+<main class="service-cards">
+   
+    
+    <section>
+        <h2>{% trans 'Манікюр' %}</h2>
+    </section>
+</main>
+<main class="service-cards">     
+    <section class="service-card">
+        <h3>Комплекс: Класичний манікюр + зняття + однотонне покриття</h3>
+        <p><strong>Ціна:</strong> 580 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Комплекс: Комбінований манікюр + зняття + однотонне покриття</h3>
+        <p><strong>Ціна:</strong> 600 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Європейський не обрізаний манікюр</h3>
+        <p><strong>Опис:</strong> Ідеальна форма нігтів та необрізний манікюр (без використання металевих інструментів для обрізання шкіри)</p>
+        <p><strong>Ціна:</strong> 200 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Класичний обрізаний манікюр</h3>
+        <p><strong>Опис:</strong> Ідеальна форма нігтів та обрізний манікюр (за допомогою пушера, ножничок та пилок)</p>
+        <p><strong>Ціна:</strong> 230 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Комбінований манікюр (класичний + апаратний)</h3>
+        <p><strong>Опис:</strong> Ідеальна форма нігтів, обробка кутикули апаратом, прибирання кутикули ножничками та шліфовка кутикули апаратом</p>
+        <p><strong>Ціна:</strong> 250 грн</p>    
+    </section>
+    <section class="service-card">
+        <h3>Японський манікюр</h3>
+        <p><strong>Опис:</strong> Техніка полягає в проникненні натуральних поживних речовин глибоко в нігтьову пластину, щоб нігті стали здоровими та сяяли без покриття лаком</p>
+        <p><strong>Ціна:</strong> 330 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Чоловічий манікюр</h3>
+        <p><strong>Опис:</strong> Ідеальна форма нігтів, і обрізний манікюр</p>
+        <p><strong>Ціна:</strong> 300 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Полірування нігтів</h3>
+        <p><strong>Ціна:</strong> 50 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Ремонт нігтя</h3>
+        <p><strong>Ціна:</strong> 60 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Укріплення гелем</h3>
+        <p><strong>Ціна:</strong> 170 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Масаж рук</h3>
+        <p><strong>Ціна:</strong> 50 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Нарощення нігтів</h3>
+        <p><strong>Довжина 1-3:</strong> 950-850 грн</p>
+        <p><strong>Довжина 3:</strong> 1000-900 грн</p>
+        <p><strong>Довжина 3-4:</strong> 1050-950 грн</p>
+        <p><strong>Довжина 5+:</strong> 1300-1150 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Корекція нарощених нігтів</h3>
+        <p><strong>Довжина 1-3:</strong> 950-850 грн</p>
+        <p><strong>Довжина 3:</strong> 1000-900 грн</p>
+        <p><strong>Довжина 3-4:</strong> 1050-950 грн</p>
+        <p><strong>Довжина 5+:</strong> 1300-1150 грн</p>
+    </section>
+</main>
+<main class="service-cards">
+    <section>
+        <h2>{% trans 'Педикюр' %}</h2>
+    </section>
+</main>
+<main class="service-cards">     
+    <section class="service-card">
+        <h3>Комплекс: Класичний педикюр + зняття + однотонне покриття</h3>
+        <p><strong>Ціна:</strong> 700 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Комплекс: Апаратний педикюр + зняття + однотонне покриття</h3>
+        <p><strong>Ціна:</strong> 800 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Педикюр пальців</h3>
+        <p><strong>Опис:</strong> Обрізний педикюр пальчиків (за допомогою пушера, ножиць або пилок), ідеальна форма нігтів</p>
+        <p><strong>Ціна:</strong> 280 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Педикюр класичний</h3>
+        <p><strong>Опис:</strong> Обрізний педикюр (за допомогою пушера, ножничок та пилок), ідеальна форма нігтів, шліфування стоп щіткою</p>
+        <p><strong>Ціна:</strong> 350 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Педикюр з використанням кислоти</h3>
+        <p><strong>Опис:</strong> Обрізний педикюр (за допомогою пушера, ножичок і пилок), ідеальна форма нігтів, шліфування стоп щіткою (з використанням засобу для видалення ороговілих клітин)</p>
+        <p><strong>Ціна:</strong> 380 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Апаратний педикюр</h3>
+        <p><strong>Опис:</strong> Ідеальна форма нігтів, обробка стопи апаратом, обрізання кутикули ножничками та шліфовка апаратом</p>
+        <p><strong>Ціна:</strong> 450 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Японський педикюр</h3>
+        <p><strong>Опис:</strong> Техніка полягає в проникненні натуральних поживних речовин глибоко в нігтьову пластину, щоб нігті стали здоровими і сяяли без покриття лаком</p>
+        <p><strong>Ціна:</strong> 420 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Чоловічий педикюр</h3>
+        <p><strong>Опис:</strong> Обрізний педикюр (за допомогою пушера, ножиць та пилок), ідеальна форма нігтів, шліфування стоп щіткою</p>
+        <p><strong>Ціна:</strong> 380 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Масаж ніг</h3>
+        <p><strong>Ціна:</strong>50 грн</p>
+    </section>
+</main>
+<main class="service-cards">    
+    <section>
+        <h2>{% trans 'Покриття' %}</h2>
+    </section>
+</main>
+<main class="service-cards">     
+    <section class="service-card">
+        <h3>Покриття гель-лак</h3>
+        <p><strong>Ціна:</strong> 280 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Покриття лак/кальцій</h3>
+        <p><strong>Ціна:</strong> 120 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Зняття гель-лак</h3>
+        <p><strong>Ціна:</strong> 70 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Зняття гель</h3>
+        <p><strong>Ціна:</strong> 90 грн</p>
+    </section>
+    <section class="service-card">
+        <h3>Малюнок легкий-важкий</h3>
+        <p><strong>Ціна:</strong> 100-200 грн</p>
+    </section>
+</main>
+{% endblock %}
+

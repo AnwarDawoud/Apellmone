@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load i18n static %} <!-- Add this line to load the i18n template tag library -->
+
+{% block title %}{% trans 'Apellmone - Головна' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+
+</header>
+<main>
+    <div>
+        <h3>Вітаємо в Apellmone де ваші нігті стануть витвором мистецтва</h3><br>
+    </div>
+    <section>
+        <p>У самому серці Черкас, засновниця Ліза створила місце, де кожен клієнт може відчути себе особливим. Apellmone — це більше, ніж просто манікюрний салон. Це простір, де краса, стиль і догляд об'єднуються, щоб подарувати вам незабутній досвід. Наші майстри не просто роблять манікюр - вони творять магію на ваших руках. Запрошуємо вас відкрити для себе світ витонченої краси та розкоші в Apellmone!</p>
+    </section>
+</main>
+{% endblock %}

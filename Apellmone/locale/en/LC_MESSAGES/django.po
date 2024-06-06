@@ -1,0 +1,663 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 11:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Apellmone\settings.py:88
+msgid "English"
+msgstr "English"
+
+#: .\Apellmone\settings.py:89
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: .\core\templates\core\base.html:4
+msgid "uk"
+msgstr "uk"
+
+#: .\core\templates\core\base.html:8
+msgid "Apellmone Salon"
+msgstr "Apellmone Salon"
+
+#: .\core\templates\core\base.html:35 .\core\templates\core\services.html:5
+msgid "Послуги"
+msgstr "Services"
+
+#: .\core\templates\core\base.html:36
+msgid "Салони"
+msgstr "Salons"
+
+#: .\core\templates\core\base.html:37 .\core\templates\core\index.html:32
+msgid "Про нас"
+msgstr "About Us"
+
+#: .\core\templates\core\base.html:38
+msgid "Контакти"
+msgstr "Contact"
+
+#: .\core\templates\core\base.html:50
+msgid "Не соромтеся! Давайте познайомимося!"
+msgstr "Don't hesitate! Let's get acquainted!"
+
+#: .\core\templates\core\base.html:51
+msgid ""
+"Привіт! Це салон краси Apellmone. Ми - команда професіоналів, присвячена "
+"вашій красі і благополуччю. Ми запрошуємо вас відвідати наш салон і відчути "
+"незабутні миті! Ви можете знайти нас за адресою: вул. Небесної Сотні, 28, в "
+"ТРЦ Аладдін, 2 поверх, офіс 1. Запрошуємо відвідати нас і подарувати вашим "
+"нігтям розкішний догляд і бездоганний стиль!"
+msgstr ""
+"Hello! This is Apellmone beauty salon. We are a team of professionals "
+"dedicated to your beauty and well-being. We invite you to visit our salon "
+"and experience unforgettable moments! You can find us at: 28, Heavenly "
+"Hundred St., in the Aladdin Shopping Mall, 2nd floor, office 1. We invite "
+"you to visit us and give your nails luxurious care and impeccable style!"
+
+#: .\core\templates\core\base.html:52
+msgid "НАПИСАТИ"
+msgstr "WRITE"
+
+#: .\core\templates\core\base.html:55
+msgid "Умови та положення"
+msgstr "Terms and Conditions"
+
+#: .\core\templates\core\base.html:56
+msgid "Розроблено XYZTECH | Дизайн: Юлія Луцька"
+msgstr "Developed by XYZTECH | Design: Julia Lutska"
+
+#: .\core\templates\core\index.html:5
+msgid "Головна - Салон краси Apellmone"
+msgstr "Home - Apellmone Beauty Salon"
+
+#: .\core\templates\core\index.html:13
+msgid "манікюрний салон"
+msgstr "nails salon"
+
+#: .\core\templates\core\index.html:21
+msgid "Вітаемо в Apellmone, де ваші нігті стають витвором мистецтва!"
+msgstr "Welcome to Apellmone, where your nails become a work of art!"
+
+#: .\core\templates\core\index.html:22
+msgid ""
+"В самому серці Черкас, засновник Ліза створила місце, де кожен клієнт може "
+"відчувати себе особливим. Apellmone - це більше, ніж просто манікюрний "
+"салон. Це простір, де краса, стиль та догляд поєднуються, щоб подарувати вам "
+"незабутні враження. Наші майстри не просто роблять манікюр - вони створюють "
+"магію на вашій руці. Ми запрошуємо вас відкрити світ вишуканої краси і "
+"розкіші в Apellmone!"
+msgstr ""
+"In the heart of Cherkasy, founder Lisa has created a place where every "
+"client can feel special. Apellmone is more than just a nail salon. It's a "
+"space where beauty, style, and care come together to give you unforgettable "
+"experiences. Our artists don't just do manicures - they create magic on your "
+"hand. We invite you to discover the world of refined beauty and luxury at "
+"Apellmone!"
+
+#: .\core\templates\core\index.html:25
+msgid "Промо"
+msgstr "Promo"
+
+#: .\core\templates\core\index.html:33
+msgid ""
+"Салон краси Apellmone розташований в самому серці Черкас. Наш салон пропонує "
+"широкий спектр послуг з догляду за нігтями, включаючи класичний і гельовий "
+"манікюр, педикюр, нарощування нігтів та дизайн нігтів. Ми використовуємо "
+"лише високоякісні матеріали і дотримуємося найвищих стандартів гігієни, щоб "
+"забезпечити безпеку і комфорт наших клієнтів. Затишна атмосфера салону "
+"Apellmone, професіоналізм нашої команди та індивідуальний підхід до кожного "
+"клієнта роблять кожен візит особливим. Ми прагнемо не тільки прикрасити ваші "
+"нігті, але й подарувати вам миті релаксації і гарного настрою. Запрошуємо "
+"відвідати наш салон Apellmone в Черкасах і переконатися особисто, що краса "
+"може бути доступною та приємною!"
+msgstr ""
+"Apellmone Beauty Salon is located in the heart of Cherkasy. Our salon offers "
+"a wide range of nail care services, including classic and gel manicures, "
+"pedicures, nail extensions, and nail design. We use only high-quality "
+"materials and adhere to the highest hygiene standards to ensure the safety "
+"and comfort of our clients. The cozy atmosphere of the Apellmone salon, the "
+"professionalism of our team, and the individual approach to each client make "
+"every visit special. We strive not only to beautify your nails but also to "
+"give you moments of relaxation and good mood. We invite you to visit our "
+"Apellmone salon in Cherkasy and see for yourself that beauty can be "
+"accessible and enjoyable!"
+
+#: .\core\templates\core\services.html:9
+msgid "Наші послуги"
+msgstr "Our Services"
+
+#: .\core\templates\core\services.html:10
+msgid "Ось послуги, які ми пропонуємо:"
+msgstr "Here are the services we offer:"
+
+#: .\core\templates\core\services.html:12
+msgid "Послуга 1"
+msgstr "Service 1"
+
+#: .\core\templates\core\services.html:13
+msgid "Послуга 2"
+msgstr "Service 2"
+
+#: .\core\templates\core\terms_uk.html:5 .\core\templates\core\terms_uk.html:9
+msgid "Умови та положення - Салон Apellmone"
+msgstr "Terms and Conditions - Apellmone Salon"
+
+#: .\core\templates\core\terms_uk.html:10
+msgid "Ласкаво просимо до Умов та Положень Салону Apellmone."
+msgstr "Welcome to the Terms and Conditions of Apellmone Salon."
+
+#: .\core\templates\core\terms_uk.html:11
+msgid ""
+"Ці умови та положення визначають правила та регламент використання веб-сайту "
+"Салону Apellmone, розташованого за адресою https://www.apellmonesalon.com."
+msgstr ""
+"These terms and conditions define the rules and regulations for the use of "
+"the Apellmone Salon website located at https://www.apellmonesalon.com."
+
+#: .\core\templates\core\terms_uk.html:12
+msgid ""
+"За доступ до цього веб-сайту ми вважаємо, що ви приймаєте ці умови та "
+"положення. Не продовжуйте використовувати Салон Apellmone, якщо ви не "
+"погоджуєтеся з усіма умовами та положеннями, зазначеними на цій сторінці."
+msgstr ""
+"By accessing this website we assume you accept these terms and conditions. "
+"Do not continue to use Apellmone Salon if you do not agree to take all of "
+"the terms and conditions stated on this page."
+
+#: .\core\templates\core\terms_uk.html:13
+msgid ""
+"Наступна термінологія застосовується до цих Умов та Положень, Заяви про "
+"конфіденційність і Повідомлення про відмову від відповідальності та всіх "
+"Угод: 'Клієнт', 'Ви' та 'Ваш' вказує на вас, особу, яка увійшла на цей веб-"
+"сайт та дотримується умов та положень Компанії. 'Компанія', 'Ми', 'Самі', "
+"'Ми', 'Наші' та 'Нас' вказує на нашу Компанію. 'Сторона', 'Сторони' або 'Ми' "
+"вказує на Клієнта та нас. Усі терміни вказують на пропозицію, прийняття та "
+"уважне сплачення плати, необхідної для проведення процесу нашої допомоги "
+"Клієнту найбільш підходящим способом з метою задоволення потреб Клієнта щодо "
+"надання зазначених послуг Компанії, відповідно до та у відповідності до "
+"чинного законодавства Нідерландів. Будь-яке використання вищевказаної "
+"термінології або інших слів в однині, множині, написанні з великої літери і/"
+"або він/вона або вони вважається взаємозамінними та, отже, вказує на те ж "
+"саме."
+msgstr ""
+"The following terminology applies to these Terms and Conditions, Privacy "
+"Statement and Disclaimer Notice and all Agreements: 'Client', 'You' and "
+"'Your' refers to you, the person log on this website and compliant to the "
+"Company’s terms and conditions. 'The Company', 'Ourselves', 'We', 'Our' and "
+"'Us', refers to our Company. 'Party', 'Parties', or 'Us', refers to the "
+"Client and ourselves. All terms refer to the offer, acceptance and "
+"consideration of payment necessary to undertake the process of our "
+"assistance to the Client in the most appropriate manner for the express "
+"purpose of meeting the Client’s needs in respect of provision of the "
+"Company’s stated services, in accordance with and subject to, prevailing law "
+"of Netherlands. Any use of the above terminology or other words in the "
+"singular, plural, capitalization and/or he/she or they, are taken as "
+"interchangeable and therefore as referring to same."
+
+#: .\core\templates\core\terms_uk.html:14
+msgid "Cookies"
+msgstr "Cookies"
+
+#: .\core\templates\core\terms_uk.html:15
+msgid ""
+"Ми використовуємо файли cookie. Використовуючи Салон Apellmone, ви "
+"погоджуєтеся використовувати файли cookie відповідно до Політики "
+"конфіденційності Салону Apellmone."
+msgstr ""
+"We use cookies. By using Apellmone Salon, you agree to the use of cookies in "
+"accordance with the Apellmone Salon Privacy Policy."
+
+#: .\core\templates\core\terms_uk.html:16
+msgid ""
+"Більшість інтерактивних веб-сайтів використовують файли cookie для того, щоб "
+"ми могли отримувати дані користувача для кожного візиту. Файли cookie "
+"використовуються нашим веб-сайтом для активації функціональності певних "
+"областей, щоб зробити візит на наш веб-сайт зручнішим. Деякі з наших "
+"партнерів-афіліатів/рекламодавців також можуть використовувати файли cookie."
+msgstr ""
+"Most interactive websites use cookies to let us retrieve the user's details "
+"for each visit. Cookies are used by our website to enable the functionality "
+"of certain areas to make it easier for people visiting our website. Some of "
+"our affiliate/advertising partners may also use cookies."
+
+#: .\core\templates\core\terms_uk.html:17
+msgid "Ліцензія"
+msgstr "License"
+
+#: .\core\templates\core\terms_uk.html:18
+msgid ""
+"За винятком випадків, коли інше зазначено, Салон Apellmone та/або його "
+"ліцензіари володіють правами на інтелектуальну власність для всіх матеріалів "
+"на Салоні Apellmone. Всі права на інтелектуальну власність зберігаються. Ви "
+"можете отримувати доступ до цього матеріалу з Салону Apellmone для вашого "
+"власного персонального використання за обмеженнями, встановленими в цих "
+"умовах та положеннях."
+msgstr ""
+"Unless otherwise stated, Apellmone Salon and/or its licensors own the "
+"intellectual property rights for all material on Apellmone Salon. All "
+"intellectual property rights are reserved. You may access this from "
+"Apellmone Salon for your own personal use subjected to restrictions set in "
+"these terms and conditions."
+
+#: .\core\templates\core\terms_uk.html:20
+msgid "Публікація матеріалу з Салону Apellmone"
+msgstr "Publishing Material from Apellmone Salon"
+
+#: .\core\templates\core\terms_uk.html:21
+msgid "Продаж, орірення або субліцензія матеріалу з Салону Apellmone"
+msgstr "Sale, licensing, or sublicensing of material from Apellmone Salon"
+
+#: .\core\templates\core\terms_uk.html:22
+msgid "Відтворення, копіювання або розповсюдження матеріалу з Салону Apellmone"
+msgstr ""
+"Reproduction, copying, or distribution of material from Apellmone Salon"
+
+#: .\core\templates\core\terms_uk.html:23
+msgid "Перерозподіл контенту з Салону Apellmone"
+msgstr "Redistribution of content from Apellmone Salon"
+
+#: .\core\templates\core\terms_uk.html:25
+msgid "Ця Угода починається з моменту її підписання."
+msgstr "This Agreement shall commence upon its signing."
+
+#: .\core\templates\core\terms_uk.html:26
+msgid ""
+"Деякі частини цього веб-сайту пропонують можливість користувачам публікувати "
+"та обмінюватися думками та інформацією в певних областях веб-сайту. Салон "
+"Apellmone не фільтрує, не редагує, не публікує та не переглядає Коментарі "
+"перед їх присутністю на веб-сайті. Коментарі не відображають погляди та "
+"думки Салону Apellmone, його агентів та/або афіліатів. Коментарі "
+"відображають погляди та думки особи, яка розмістила свої погляди та думки. "
+"Насамперед, з урахуванням чинного законодавства, Салон Apellmone не несе "
+"відповідальності за Коментарі або будь-яку відповідальність, збитки чи "
+"витрати, що виникають та/або понесені внаслідок будь-якого використання, "
+"публікації та/або виникнення Коментарів на цьому веб-сайті."
+msgstr ""
+"Some parts of this website offer users the opportunity to post and exchange "
+"thoughts and information in certain areas of the website. Apellmone Salon "
+"does not filter, edit, publish, or review Comments prior to their presence "
+"on the website. Comments do not reflect the views and opinions of Apellmone "
+"Salon, its agents, and/or affiliates. Comments reflect the views and "
+"opinions of the person who posted their views and opinions. To the extent "
+"permitted by applicable law, Apellmone Salon shall not be liable for "
+"Comments or for any liability, damages, or expenses caused and/or suffered "
+"as a result of any use, publication, and/or appearance of Comments on this "
+"website."
+
+#: .\core\templates\core\terms_uk.html:27
+msgid ""
+"Салон Apellmone залишає за собою право моніторити всі Коментарі та видаляти "
+"будь-які Коментарі, які можна вважати неприйнятними, образливими чи "
+"спричиняють порушення цих Умов та Положень."
+msgstr ""
+"Apellmone Salon reserves the right to monitor all Comments and to remove any "
+"Comments which can be considered inappropriate, offensive, or violate these "
+"Terms "
+
+#: .\core\templates\core\terms_uk.html:28
+msgid "Ви гарантуєте та заявляєте, що:"
+msgstr "You warrant and represent that:"
+
+#: .\core\templates\core\terms_uk.html:30
+msgid ""
+"Ви маєте право розміщувати Коментарі на нашому веб-сайті та маєте всі "
+"необхідні ліцензії та згоди для цього;"
+msgstr ""
+"You have the right to post Comments on our website and have all necessary "
+"licenses and consents to do so;"
+
+#: .\core\templates\core\terms_uk.html:31
+msgid ""
+"Коментарі не порушують жодного права на інтелектуальну власність, включаючи, "
+"без обмеження, авторські права, патент або товарний знак будь-якої третьої "
+"сторони;"
+msgstr ""
+"Comments do not infringe on any intellectual property right, including, "
+"without limitation, copyright, patent, or trademark of any third party;"
+
+#: .\core\templates\core\terms_uk.html:32
+msgid ""
+"Коментарі не містять ніякого дефамаційного, образливого, непристойного або "
+"іншого незаконного матеріалу, який є порушенням приватності"
+msgstr ""
+"Comments do not contain any defamatory, offensive, indecent, or otherwise "
+"unlawful material which is an invasion of privacy"
+
+#: .\core\templates\core\terms_uk.html:33
+msgid ""
+"Коментарі не будуть використовуватися для просування або реклами комерційної "
+"діяльності або представлення комерційних дій або незаконної діяльності."
+msgstr ""
+"Comments will not be used to promote or advertise commercial activities or "
+"to present commercial activities or unlawful activities."
+
+#: .\core\templates\core\terms_uk.html:35
+msgid ""
+"Ви надаєте Салону Apellmone невиключну ліцензію на використання, "
+"відтворення, редагування та дозвіл на використання, відтворення та "
+"редагування ваших Коментарів у будь-якій формі, форматі чи носії."
+msgstr ""
+"You grant Apellmone Salon an exclusive license to use, reproduce, edit, and "
+"permit the use, reproduction, and editing of your Comments in any form, "
+"format, or medium."
+
+#: .\core\templates\core\terms_uk.html:36
+msgid "Гіперпосилання на наш контент"
+msgstr "Hyperlinks to Our Content"
+
+#: .\core\templates\core\terms_uk.html:37
+msgid ""
+"Наступні організації можуть посилатися на наш веб-сайт без попереднього "
+"письмового згоди:"
+msgstr ""
+"The following organizations may link to our website without prior written "
+"approval:"
+
+#: .\core\templates\core\terms_uk.html:39
+msgid "Урядові агентства;"
+msgstr "Government agencies;"
+
+#: .\core\templates\core\terms_uk.html:40
+msgid "Пошукові системи;"
+msgstr "Search engines;"
+
+#: .\core\templates\core\terms_uk.html:41
+msgid "Новинні організації;"
+msgstr "News organizations;"
+
+#: .\core\templates\core\terms_uk.html:42
+msgid ""
+"Дистриб'ютори онлайн-каталогів можуть посилатися на наш веб-сайт таким же "
+"способом, як вони посилаються на веб-сайти інших перерахованих підприємств; і"
+msgstr ""
+"Online directory distributors may link to our website in the same manner as "
+"they hyperlink to the websites of other listed businesses; and"
+
+#: .\core\templates\core\terms_uk.html:43
+msgid ""
+"Підприємства зі всесвітнім акредитаційним статусом, крім неприбуткових "
+"організацій, благодійних торгових центрів та благодійних організацій, які "
+"займаються збором коштів, які можуть не робити гіперпосилання на наш веб-"
+"сайт."
+msgstr ""
+"worldwide accredited businesses except soliciting non-profit organizations, "
+"charity shopping malls, and charity fundraising groups which may not "
+"hyperlink to our Web site."
+
+#: .\core\templates\core\terms_uk.html:45
+msgid ""
+"Ці організації можуть посилатися на нашу домашню сторінку, на публікації або "
+"на іншу інформацію веб-сайту, якщо посилання: (a) не є ніяким образом "
+"обманливим; (b) не надає хибне враження спонсорства, підтримки чи "
+"затвердження посилаючої сторони та її продуктів та/або послуг; і (c) "
+"вписується в контекст сайту посилаючої сторони."
+msgstr ""
+"These organizations may link to our home page, to publications or to other "
+"Website information so long as the link: (a) is not in any way deceptive; "
+"(b) does not falsely imply sponsorship, endorsement or approval of the "
+"linking party and its products and/or services; and (c) fits within the "
+"context of the linking party’s site."
+
+#: .\core\templates\core\terms_uk.html:46
+msgid ""
+"Ми можемо розглянути та схвалити інші запити на посилання від таких типів "
+"організацій:"
+msgstr ""
+"We may consider and approve other link requests from the following types of "
+"organizations:"
+
+#: .\core\templates\core\terms_uk.html:48
+msgid "Відомі джерела інформації для споживачів та/або підприємців;"
+msgstr "commonly-known consumer and/or business information sources;"
+
+#: .\core\templates\core\terms_uk.html:49
+msgid "Сайти спільнот дот-ком;"
+msgstr "dot.com community sites;"
+
+#: .\core\templates\core\terms_uk.html:50
+msgid "Асоціації чи інші групи, що представляють благодійні організації;"
+msgstr "associations or other groups representing charities;"
+
+#: .\core\templates\core\terms_uk.html:51
+msgid "Дистриб'ютори онлайн-каталогів;"
+msgstr "Online catalog distributors;"
+
+#: .\core\templates\core\terms_uk.html:52
+msgid "Інтернет-портали;"
+msgstr "Internet portals;"
+
+#: .\core\templates\core\terms_uk.html:53
+msgid "Аудиторські, правні та консультативні фірми; і"
+msgstr "Accounting, legal, and consulting firms; and"
+
+#: .\core\templates\core\terms_uk.html:54
+msgid "Освітні заклади та торгові асоціації."
+msgstr "Educational institutions and trade associations."
+
+#: .\core\templates\core\terms_uk.html:56
+msgid ""
+"Ми затвердимо запити на посилання від цих організацій, якщо ми вирішимо, що: "
+"(a) посилання не зробить нас невигідними перед собою або перед нашими "
+"акредитованими підприємствами; (b) у організації немає негативних записів "
+"про нас; (c) користь для нас від видимості гіперпосилання компенсує "
+"відсутність Салону Apellmone; і (d) посилання є в контексті загальної "
+"інформації про ресурси."
+msgstr ""
+"We will approve link requests from these organizations if we decide that: "
+"(a) the link would not make us look unfavorably to ourselves or to our "
+"accredited businesses; (b) the organization does not have any negative "
+"records with us; (c) the benefit to us from the visibility of the hyperlink "
+"compensates the absence of Salon Apellmone; and (d) the link is in the "
+"context of general resource information."
+
+#: .\core\templates\core\terms_uk.html:57
+msgid ""
+"Ці організації можуть посилатися на нашу домашню сторінку, за умови, що "
+"посилання: (a) не є ніяким образом обманливим; (b) не надає хибне враження "
+"спонсорства, підтримки чи затвердження посилаючої сторони та її продуктів "
+"або послуг; і (c) вписується в контекст сайту посилаючої сторони."
+msgstr ""
+"These organizations may link to our home page, to publications or to other "
+"information on the website as long as the link: (a) is not in any way "
+"deceptive; (b) does not falsely imply sponsorship, endorsement or approval "
+"of the linking party and its products or services; and (c) fits within the "
+"context of the linking party’s site."
+
+#: .\core\templates\core\terms_uk.html:58
+msgid ""
+"Якщо ви є однією з організацій, перерахованих у пункті 2 вище, та цікавитеся "
+"посиланням на наш веб-сайт, ви повинні повідомити нас, надіславши листа на "
+"електронну адресу Салону Apellmone. Будь ласка, вкажіть своє ім'я, назву "
+"вашої організації, контактну інформацію, а також URL-адресу вашого сайту, "
+"список URL-адрес, з яких ви намірені посилатися на наш веб-сайт, і список "
+"URL-адрес на нашому сайті, на які ви хочете посилатися. Зачекайте 2-3 тижні "
+"на відповідь."
+msgstr ""
+"If you are one of the organizations listed in paragraph 2 above and are "
+"interested in linking to our website, you must inform us by sending an email "
+"to Apellmone Salon. Please include your name, your organization name, "
+"contact information, as well as the URL of your site, a list of any URLs "
+"from which you intend to link to our website, and a list of the URLs on our "
+"site to which you would like to link. Please wait 2-3 weeks for a response."
+
+#: .\core\templates\core\terms_uk.html:59
+msgid ""
+"Затверджені організації можуть робити гіперпосилання на наш веб-сайт "
+"наступним чином:"
+msgstr "Approved organizations may hyperlink to our website as follows:"
+
+#: .\core\templates\core\terms_uk.html:61
+msgid "За допомогою нашого корпоративного імені; або"
+msgstr "By use of our corporate name; or"
+
+#: .\core\templates\core\terms_uk.html:62
+msgid "За допомогою уніфікованого посилання, на яке посилається; або"
+msgstr "By use of the uniform resource locator being linked to; or"
+
+#: .\core\templates\core\terms_uk.html:63
+msgid ""
+"За допомогою будь-якого іншого опису нашого веб-сайту, на який посилаються, "
+"що має сенс в контексті та формату контенту на сайті посилаючої сторони."
+msgstr ""
+"By use of any other description of our website being linked to that makes "
+"sense within the context and format of content on the linking party’s site."
+
+#: .\core\templates\core\terms_uk.html:65
+msgid ""
+"Не буде дозволено використання логотипу Салону Apellmone або інших художніх "
+"робіт для створення посилань без угоди на використання товарного знака."
+msgstr ""
+"No use of Apellmone Salon's logo or other artwork will be allowed for "
+"linking absent a trademark license agreement."
+
+#: .\core\templates\core\terms_uk.html:66
+msgid "iFrames"
+msgstr "iFrames"
+
+#: .\core\templates\core\terms_uk.html:67
+msgid ""
+"Без попередньої згоди та письмового дозволу ви не можете створювати фрейми "
+"навколо наших веб-сторінок, які будь-яким чином змінюють візуальне "
+"представлення або вигляд нашого веб-сайту."
+msgstr ""
+"Without prior approval and written permission, you may not create frames "
+"around our web pages that alter in any way the visual presentation or "
+"appearance of our website."
+
+#: .\core\templates\core\terms_uk.html:68
+msgid "Відповідальність за вміст"
+msgstr "Content Liability"
+
+#: .\core\templates\core\terms_uk.html:69
+msgid ""
+"Ми не несемо відповідальності за будь-який контент, що з'являється на вашому "
+"веб-сайті. Ви погоджуєтесь захищати і захищати нас від всіх претензій, що "
+"виникають на вашому веб-сайті. На жодному веб-сайті не повинно з'являтися "
+"посилання, яке може бути розцінене як клеветницьке, непристойне або "
+"кримінальне, або яке порушує, інакше порушує, або пропагує порушення або "
+"інше порушення прав будь-якої третьої сторони."
+msgstr ""
+"We shall not be hold responsible for any content that appears on your "
+"Website. You agree to protect and defend us against all claims that is "
+"rising on your Website. No link(s) should appear on any Website that may be "
+"interpreted as libelous, obscene or criminal, or which infringes, otherwise "
+"violates, or advocates the infringement or other violation of, any third "
+"party rights."
+
+#: .\core\templates\core\terms_uk.html:70
+msgid "Ваша конфіденційність"
+msgstr "Your Privacy"
+
+#: .\core\templates\core\terms_uk.html:71
+msgid "Будь ласка, прочитайте Політику конфіденційності"
+msgstr "Please read Privacy Policy"
+
+#: .\core\templates\core\terms_uk.html:72
+msgid "Збереження прав"
+msgstr "Reservation of Rights"
+
+#: .\core\templates\core\terms_uk.html:73
+msgid ""
+"Ми залишаємо за собою право запросити вас видалити всі посилання або будь-"
+"яке певне посилання на наш веб-сайт. Ви погоджуєтеся негайно видаляти всі "
+"посилання на наш веб-сайт за запитом. Ми також залишаємо за собою право "
+"вносити зміни в ці умови та положення та нашу політику посилань у будь-який "
+"час. Продовжуючи посилатися на наш веб-сайт, ви погоджуєтеся бути зв'язаними "
+"цими умовами та положеннями."
+msgstr ""
+"We reserve the right to request that you remove all links or any particular "
+"link to our Website. You approve to immediately remove all links to our "
+"Website upon request. We also reserve the right to amen these terms and "
+"conditions and it’s linking policy at any time. By continuously linking to "
+"our Website, you agree to be bound to and follow these linking terms and "
+"conditions."
+
+#: .\core\templates\core\terms_uk.html:74
+msgid "Видалення посилань з нашого веб-сайту"
+msgstr "Removal of links from our website"
+
+#: .\core\templates\core\terms_uk.html:75
+msgid ""
+"Якщо ви знайдете будь-яке посилання на нашому веб-сайті образливим з будь-"
+"якої причини, ви вільні зв'язатися з нами у будь-який момент та повідомити "
+"про це. Ми розглянемо запити на видалення посилань, але не зобов'язані "
+"робити це або відповідати вам безпосередньо."
+msgstr ""
+"If you find any link on our Website that is offensive for any reason, you "
+"are free to contact and inform us any moment. We will consider requests to "
+"remove links but we are not obligated to or so or to respond to you directly."
+
+#: .\core\templates\core\terms_uk.html:76
+msgid ""
+"Ми не гарантуємо, що інформація на цьому веб-сайті є правильною, ми не "
+"гарантуємо її повноту або точність; також ми не обіцяємо гарантувати "
+"доступність веб-сайту або зберігати матеріали на веб-сайті в актуальному "
+"стані."
+msgstr ""
+"We do not ensure that the information on this website is correct, we do not "
+"warrant its completeness or accuracy; nor do we promise to ensure that the "
+"website remains available or that the material on the website is kept up to "
+"date."
+
+#: .\core\templates\core\terms_uk.html:77
+msgid "Відмова від відповідальності"
+msgstr "Disclaimer of liability"
+
+#: .\core\templates\core\terms_uk.html:78
+msgid ""
+"В максимально допустимому обсязі, передбаченому чинним законодавством, ми "
+"виключаємо всі заяви, гарантії та умови, що стосуються нашого веб-сайту та "
+"використання цього веб-сайту. Ніщо у цьому відмові від відповідальності не "
+"буде:"
+msgstr ""
+"To the maximum extent permitted by applicable law, we exclude all "
+"representations, warranties and conditions relating to our website and the "
+"use of this website. Nothing in this disclaimer will:"
+
+#: .\core\templates\core\terms_uk.html:80
+msgid ""
+"обмежувати або виключати нашу або вашу відповідальність за смерть або "
+"тілесні ушкодження;"
+msgstr ""
+"to limit or exclude our or your liability for death or personal injury;"
+
+#: .\core\templates\core\terms_uk.html:81
+msgid ""
+"обмежувати або виключати нашу або вашу відповідальність за шахрайство або "
+"шахрайське представництво;"
+msgstr ""
+"to limit or exclude our or your liability for fraud or fraudulent "
+"misrepresentation;"
+
+#: .\core\templates\core\terms_uk.html:82
+msgid ""
+"обмежувати будь-яку з наших або вашої відповідальності будь-яким чином, який "
+"не допускається згідно з чинним законодавством;"
+msgstr ""
+"to limit any of our or your liabilities in any way that is not permitted "
+"under applicable law;"
+
+#: .\core\templates\core\terms_uk.html:83
+msgid ""
+"або виключати будь-яку з наших або вашої відповідальності, яка може бути "
+"виключена згідно з чинним законодавством."
+msgstr ""
+"or to exclude any of our or your liabilities that may not be excluded under "
+"applicable law."
+
+#~ msgid "Салон краси Apellmone"
+#~ msgstr "Apellmone Beauty Salon"

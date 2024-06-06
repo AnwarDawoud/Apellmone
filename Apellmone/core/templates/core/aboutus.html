@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load i18n static %}
+
+{% block title %}{% trans 'Які в нас майстри?' %}{% endblock %}
+
+{% block content %}
+<header class="bg-light py-3 d-flex flex-column align-items-start">
+    <div class="left-text">
+        <h1 id="navbar-brand" class="m-0">
+            <span class="neon-text fallback">Apellmone</span> <br>
+            <span class="small-pink-text">{% trans "манікюрний салон" %}</span>
+        </h1>
+    </div>
+</header>
+<main>
+    <div class="content-grid">
+        <div class="content-section">
+            <div class="column">
+                <div class="content-text">
+                    <h3>ПРО НАС</h3>
+                    <p>Манікюрний салон Apellmone, знаходиться в самому серці Черкас. Наш салон пропонує широкий спектр послуг для догляду за нігтями, включаючи класичний та гелевий манікюр, педикюр, нарощування та дизайн нігтів. Ми використовуємо тільки високоякісні матеріали і дотримуємось найвищих стандартів гігієни, щоб забезпечити безпеку та комфорт наших клієнтів.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content-images">
+                    <img src="{% static 'core/images/signal-2024-06-05-142228_002.jpeg' %}" alt="Image 1">
+                    <img src="{% static 'core/images/signal-2024-06-05-142228_003.jpeg' %}" alt="Image 2">
+                </div>
+                <div class="content-text">
+                    <p>Затишна атмосфера салону
+Apellmone, професіоналізм нашої команди та індивідуальний підхід до кожного клієнта роблять кожен візит особливим. Ми прагнемо не тільки прикрасити ваші нігті, але й подарувати вам моменти релаксу та гарного настрою.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

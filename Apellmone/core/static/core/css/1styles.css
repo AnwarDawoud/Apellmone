@@ -1,0 +1,207 @@
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 125px;
+    left: 0;
+    width: 75px;
+    background-color: #f8f9fa;
+    padding-top: 15px;
+    z-index: 1000;
+    overflow-y: auto;
+    transition: all 0.3s;
+}
+
+.sidebar a {
+    font-family: 'Marck Script', sans-serif; /* Use Marck Script font */
+    font-size: 25px; /* Adjust the font size as needed */
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px; /* Adjust padding as needed */
+    color: #000000;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Content Styles */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    padding-top: 70px;
+    z-index: 0;
+    min-height: calc(100vh - 250px);
+    transition: margin-left 0.3s;
+}
+
+.footer {
+    grid-row: 2;
+    grid-column: 2;
+    padding: 10px 20px;
+    background-color: #ccc;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-language {
+    margin-left: 10px;
+}
+
+/* Font Face */
+@font-face {
+    font-family: 'Marck Script';
+    src: local('Marck Script'), local('MarckScript-Regular'), 
+        url('/fonts/marckscript.woff2') format('woff2'), 
+        url('/fonts/marckscript.woff') format('woff'), 
+        url('/fonts/marckscript.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Root Variables */
+:root {
+    --light-pink: #ff99cc;
+    --dark-pink: #ff69b4;
+}
+
+/* Neon Text Styles */
+.neon-text {
+    font-family: 'Marck Script', sans-serif; /* Use Marck Script font */
+    font-size: 1.25em; /* Adjust font size as needed */
+    color: #ff69b4;
+}
+
+/* Fallback color */
+.neon-text.fallback {
+    color: #ff69b4; 
+}
+
+.small-pink-text {
+    font-family: 'Marck Script', sans-serif;
+    font-size: 0.6em;
+    color: #ff69b4;
+    margin-left: 50px;
+}
+
+/* Default btn-primary styles */
+.btn-primary {
+    color: #fff;
+    background-color: #f59595;
+    border-color: #3c2626;
+}
+
+/* Specific styles for the button in .button-container */
+.button-container .btn-primary {
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 125px; /* Adjust width as needed */
+    height: 35px;
+    font-size: 16px; /* Adjust font size to fit within the button */
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: black; /* Text color */
+    background-color: #FF33CC; /* Neon pink color */
+    border: 2px solid black; /* Black border */
+    border-radius: 20px; /* Fully rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Enable transition effects */
+}
+
+/* Hover styles for the button in .button-container */
+.button-container .btn-primary:hover {
+    background-color: #FF0099; /* Dark pink color on hover */
+    color: black; /* Ensure text color remains black on hover */
+}
+
+
+
+/* Image Styles */
+.smaller-image {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Additional Styles */
+.promo {
+    background: none;
+}
+
+.promo-text h1 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.promo-text p {
+    text-align: justify;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.about-us h2, .salons h2, .franchise h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+#promo-text,
+#about-text {
+    text-align: justify;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.contact-us p, .footer-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/* Font Face */
+@font-face {
+    font-family: 'Marck Script';
+    src: local('Marck Script'), local('MarckScript-Regular'), 
+        url('/fonts/marckscript.woff2') format('woff2'), 
+        url('/fonts/marckscript.woff') format('woff'), 
+        url('/fonts/marckscript.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.marck-script-font {
+    font-family: 'Marck Script', sans-serif;
+    color: #ff6ec7;
+}
+
+.signatory {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 1em; /* Adjust the font size as needed */
+    color: #000000; /* Use a medium dark pink color */
+}
+.signatory p {
+    text-align: right;
+}

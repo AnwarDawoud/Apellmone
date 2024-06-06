@@ -1,0 +1,101 @@
+            .sidebar {
+                position: fixed;
+                top: 125px; /* Adjusted position */
+                left: 0;
+                width: 75px;
+                background-color: #f8f9fa;
+                padding-top: 50px;
+                z-index: 1000;
+                overflow-y: auto;
+                transition: all 0.3s;
+            }
+
+            .sidebar a {
+                text-decoration: none;
+                display: block;
+                padding: 5px 15px;
+                color: #333;
+                white-space: nowrap;
+                writing-mode: vertical-rl; /* Rotate text vertically */
+                text-orientation: mixed; /* Ensure proper text orientation */
+                margin-bottom: 20px; /* Adding margin between sidebar links */
+            }
+
+
+            .content {
+                margin-left: 250px;
+                padding: 20px;
+                padding-top: 70px; /* Adjusted padding to account for sidebar height */
+                z-index: 0; /* Ensure content is behind sidebar */
+                min-height: calc(100vh - 250px); /* Expand content to at least 100% of viewport height */
+                transition: margin-left 0.3s; /* Smooth transition */
+            }
+
+            .footer {
+                grid-row: 2;
+                grid-column: 2;
+                padding: 10px 20px;
+                background-color: #ccc;
+                text-align: left;
+                width: 100%; /* Ensure the footer takes the full width of the content area */
+                box-sizing: border-box; /* Include padding in the width calculation */
+                white-space: normal; /* Allow text to wrap */
+            }
+
+            body {
+                font-family: 'ArtisanRomanStd', Arial, sans-serif;
+                /* background-image: url("/static/images/background3.jpg");
+                background-size: cover; /* Adjust this value as needed */
+                /* background-position: center; */ */
+            }
+
+
+            header {
+                display: flex;
+                padding: 10px 20px;
+                justify-content: flex-start; /* Align items to the start of the header */
+                align-items: center; /* Align items vertically */
+            }
+
+            /* Adjust the language icon styles */
+            .fa-language {
+                margin-left: 10px; /* Add margin to separate the icons */
+            }
+            .promo {
+                background: none;
+            }
+
+            .promo-text h1 {
+                font-size: 24px;
+                color: #333;
+            }
+
+            .promo-text p {
+                font-size: 18px;
+                color: #555;
+            }
+
+            .about-us h2, .salons h2, .franchise h2 {
+                font-size: 22px;
+                color: #333;
+            }
+
+            .contact-us p, .footer-info p {
+                font-size: 14px;
+                color: #555;
+            }
+
+            .contact-us a {
+                text-decoration: none;
+                color: #ff0000;
+            }
+
+            .btn-primary {
+                color: #fff;
+                background-color: #f59595;
+                border-color: #3c2626;
+            }
+            .smaller-image {
+                max-width: 200px; /* Adjust the width as needed */
+                height: auto; /* Maintain aspect ratio */
+            }
