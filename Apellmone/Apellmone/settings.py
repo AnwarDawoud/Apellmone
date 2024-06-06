@@ -9,7 +9,10 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-@8!$jbsytk9gqe
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'apellmone-86d239eb66e5.herokuapp.com',
+    'localhost'
+]
 
 INTERNAL_IPS = [
     '127.0.0.1',
