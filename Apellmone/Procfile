@@ -1,0 +1,1 @@
+web: gunicorn Apellmone\core:Apellmone\core
